@@ -1,0 +1,8 @@
+#!/bin/bash
+#houyawei_2020.06.28
+#
+
+chmod 777 ./board.bin 
+chmod 777 firmware-4.bin
+sudo cp board.bin /lib/firmware/ath10k/QCA6174/hw3.0/
+sudo cp firmware-4.bin /lib/firmware/ath10k/QCA6174/hw3.0/
